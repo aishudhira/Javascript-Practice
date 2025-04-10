@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(66,66,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; /* Ensures content and button stack vertically */
+}
+
+.container {
+    margin-bottom: 20px; /* Adds spacing between the container and button */
+}
+
+.sort-btn {
+    width: 200px; /* You can adjust the width of the button if needed */
+}
